@@ -1,46 +1,117 @@
-# Getting Started with Create React App
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/gabitchian/LetMeAsk?color=%2304D361&style=for-the-badge">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/gabitchian/LetMeAsk?style=for-the-badge">
 
-## Available Scripts
+  <a href="https://github.com/gabitchian/LetMeAsk/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/gabitchian/LetMeAsk?style=for-the-badge">
+  </a>
 
-In the project directory, you can run:
+   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?style=for-the-badge">
+   <a href="https://github.com/gabitchian/LetMeAsk/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/gabitchian/LetMeAsk?style=for-the-badge">
+  </a>
 
-### `yarn start`
+  <a href="https://github.com/gabitchian">
+    <img alt="Feito por Gabriela Tchian" src="https://img.shields.io/badge/feito%20por-Gabi%20Tchian-%231b9?style=for-the-badge">
+  </a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+</p>
+<h1 align="center" style="padding: 50px; background: #333333;">
+    <img alt="LetMeAsk" title="#LetMeAsk" src="https://raw.githubusercontent.com/gabitchian/LetMeAsk/main/src/assets/images/logo.svg" />
+</h1>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<h4 align="center">
+	🏁  Let Me Ask - Em Andamento 🏁
+</h4>
 
-### `yarn test`
+<p align="center">
+ <a href="#--sobre-o-projeto">Sobre</a> •
+ <a href="#-%EF%B8%8F-funcionalidades">Funcionalidades</a> •
+ <a href="#--como-executar-o-projeto">Como executar</a> •
+ <a href="#--tecnologias">Tecnologias</a> •
+ <a href="#--autor">Autor</a> •
+ <a href="#--licença">Licença</a>
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## [](https://github.com/gabitchian/LetMeAsk#--sobre-o-projeto) 💻 Sobre o projeto
 
-### `yarn build`
+A aplicação desenvolvida é um site de envio de perguntas para serem respondidas em uma live.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+O projeto foi desenvolvido durante o evento **NLW #6** da [RocketSeat](https://rocketseat.com.br/), com o objetivo de criar uma aplicação web com React e Firebase, em 5 aulas.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Para o desenvolvimento utilizamos **ReactJS**, **Firebase** e **TypeScript**.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `yarn eject`
+## [](https://github.com/gabitchian/LetMeAsk#--como-executar-o-projeto) 🚀 Como executar o projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Pré-requisitos
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
+Além disso, é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### 🧭 Rodando a aplicação
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
 
-## Learn More
+# Clone este repositório
+$ git clone git@github.com:gabitchian/LetMeAsk.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd LetMeAsk
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Instale as dependências
+$ npm install
+# ou
+$ yarn
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run start
+# ou
+$ yarn start
+
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+
+```
+
+---
+
+## [](https://github.com/gabitchian/LetMeAsk#--tecnologias) 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+#### **Aplicação** (**[React](https://reactjs.org/)** + **[Firebase](https://firebase.google.com/)** + **[TypeScript](https://www.typescriptlang.org/)**)
+
+- **[ESLint](https://eslint.org/)**
+
+> Veja o arquivo [package.json](https://github.com/gabitchian/LetMeAsk/blob/main/package.json)
+
+#### **Utilitários**
+
+- Editor: **[Visual Studio Code](https://code.visualstudio.com/)**
+- Fontes: **[Roboto](https://fonts.google.com/specimen/Roboto?query=roboto)** **[Poppins](https://fonts.google.com/specimen/Poppins?query=poppins)**
+- README: **[Template de BrunoSaibert](https://github.com/BrunoSaibert/brunoquiz/blob/main/README.md)**
+
+---
+
+## [](https://github.com/gabitchian/LetMeAsk#--autor) 👩‍🚀 Autora
+
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/gabitchian" width="100px;" alt="Gabi Tchian"/>
+ <br />
+ <sub><b>Gabriela Tchian</b></sub></a>
+ <br />
+
+Feito por Gabriela Tchian durante a NLW #6
+
+👋 Contatos!
+
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gabrielatchian/)](https://www.linkedin.com/in/gabrielatchian/)
+[![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:gftchian0609@gmail.com)](mailto:gftchian0609@gmail.com)
+
+---
+
+## [](https://github.com/gabitchian/LetMeAsk#--licença) 📝 Licença
+
+Este projeto esta sobe a licença MIT.

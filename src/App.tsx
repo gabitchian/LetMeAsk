@@ -1,7 +1,20 @@
+/* eslint-disable react/jsx-curly-brace-presence */
 /* eslint-disable react/react-in-jsx-scope */
+import { BrowserRouter, Route } from 'react-router-dom';
+
+import AuthContextProvider from './contexts/AuthContext';
+
+import Home from './pages/Home';
+import NewRoom from './pages/NewRoom';
+
 function App() {
   return (
-    <h1>hello world</h1>
+    <BrowserRouter>
+      <AuthContextProvider>
+        <Route path="/" exact component={Home} />
+        <Route path="/rooms/new" component={NewRoom} />
+      </AuthContextProvider>
+    </BrowserRouter>
   );
 }
 
